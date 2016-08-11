@@ -1,0 +1,7 @@
+AllowOverride all
+RewriteEngine on
+RewriteRule ^([^\.]*)?\.html$ index.php?name=$1 [NC,L]
+RewriteRule ^([^\.]*)?\.html.([^\.]*)$ index.php?name=$1&lang=$2 [NC,L]
+
+RewriteRule ^([^\.]*)?\.xml sitemap.php?name=$1 [NC,L]
+ErrorDocument 404 /

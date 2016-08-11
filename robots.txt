@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /images/
+Disallow: /style/
+Sitemap: /sitemaps/sitemap-index.xml

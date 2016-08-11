@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+}
+/* Global Elements */
+body {
+	background: #F0F8FA;
+	font: 0.75em Arial;
+	color: #696969;
+	text-align: center;
+}
+fieldset {
+	border: 0px;
+	padding: 0px;
+}
+form {
+	padding: 0px;
+}
+
+
+
+#ttext
+{
+font-weight: none;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#ttext a {
+	text-decoration: none;
+font-weight: none;
+}
+
+#ttext a:hover {
+	text-decoration: none;
+font-weight: none;
+}
+
+
+a {
+	color: #941A1A;
+}
+a:hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+	height: 0%;
+	font-size: 0%;
+}
+/* Top container */
+#container {
+	width: 769px;
+	margin: 20px auto 20px auto;
+	text-align: left;
+	background: url(/images/container_bg.gif) repeat-y center;
+}
+#content {
+	padding: 24px 20px 0px 21px;
+	background: url(/images/top.gif) no-repeat;
+}
+/* Heading */
+#title {
+	background: url(/images/gradient.gif) repeat-x;
+	height: 95px;
+	padding: 0px 20px 0px 23px;;
+}
+#title h1 {
+	font: 2.0em Georgia;
+	color: #941A1A;
+	padding: 30px 0px;
+	float: left;
+}
+
+/* Search Box */
+#search {
+	float: right;
+	color: #696969;
+	width: 240px;
+	font-size: 0.9em;
+	padding-top: 25px;
+}
+#search .label {
+	margin-top: 10px;
+	display: block;
+	float: left;
+	width: 60px;
+}
+#search .box {
+	background: url(/images/search_box.gif) no-repeat;
+	float: left;
+	padding: 9px 10px;
+}
+#search .box input {
+	font: 1.0em Arial;
+	color: #696969;
+	width: 152px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+#search .go {
+	float: right;
+	margin-top: 0px;
+	font: 1.5em Arial;
+	width: 60px;
+	padding: 3px 0px;
+}
+
+/* Main Content */
+#main {
+	margin-top: 15px;
+	padding: 0px 0px 0px 20px;
+	background: url(/images/main_bg.gif);
+}
+#main #left {
+	line-height: 2.1em;
+	float: left;
+	width: 450px;
+}
+#main #left h1 {
+	color: #941A1A;
+	font: 1.7em Georgia;
+	margin-bottom: 4px;
+}
+#main #left .one {
+	font-size: 0.9em;
+}
+#main #right {
+	width: 200px;
+	float: right;
+}
+#main #right h1 {
+	background: url(/images/h1.gif) no-repeat;
+	font: 1.2em Arial;
+	padding: 11px 0px 11px 20px;
+}
+#main #right #list a {
+	background: url(/images/a.gif) repeat-x bottom;
+	display: block;
+	text-decoration: none;
+	padding: 11px 20px;
+}
+#main #right #list a:hover {
+	text-decoration: underline;
+}
+
+#main #right #list2 {
+	padding: 0px 5px;
+}
+
+/* Footer */
+#footer {
+	background: url(/images/bottom.gif) no-repeat bottom;
+	text-align: right;
+	padding: 0px 20px 27px 21px;
+	margin-top: 2px;
+}
+#footer .bar {
+	background: #FBFBFB;
+	padding: 7px 14px 7px 0px;
+	font-size: 0.9em;
+}

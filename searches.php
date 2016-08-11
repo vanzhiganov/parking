@@ -1,0 +1,12 @@
+<a href="world.html">World</a>
+<a href="loan.html">Loan</a>
+<a href="debt.html">Debt</a>
+<a href="health.html">Health</a>
+<a href="diet.html">Diet</a>
+<a href="medicine.html">Medicine</a>
+<a href="jobs.html">Jobs</a>
+<a href="sleep.html">Sleep</a>
+<a href="hospital.html">Hospital</a>
+<a href="shopping.html">Shopping</a>
+<a href="vitamins.html">Vitamins</a>
+<a href="fitness.html">Fitness</a>
