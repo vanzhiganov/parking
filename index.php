@@ -1,6 +1,6 @@
 <?php
-include("../application/config.php");
-include("../application/functions.php");
+include("application/config.php");
+include("application/functions.php");
 
 $language = (isset($_GET['lang'])) ? $_GET['lang'] : "en";
 switch ($language) {
